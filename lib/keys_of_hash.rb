@@ -3,7 +3,7 @@ class Hash
     # code goes here
      new_array = []
     self.each do |key, value|
-      if key == 
+      if arguments.include?(value)
         array << key 
       end
     new_array
