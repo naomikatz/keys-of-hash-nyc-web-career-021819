@@ -6,7 +6,6 @@ class Hash
       if arguments.include?(value)
         array << key 
       end
-    end
-    array
+    new_array
   end
 end
